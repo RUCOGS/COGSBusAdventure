@@ -67,6 +67,16 @@ public class COGSBusAdventure extends ConsoleGame {
 		Location l_w_hill_f3 = new Location("The Hill Center Floor 3");
 		Location l_w_hill_cb = new Location("Core Bridge");
 		Location l_w_hill_cf = new Location("Core Floor 3");
+		
+		//Bus Route
+		Location l_b_george = new Location("George St North");
+		Location l_b_18Bush = new Location("Busch Campus Exit");
+		Location l_b_bushc = new Location("Busch Campus circle");
+		Location l_b_werblin = new Location("Werblin");
+		Location l_b_stad = new Location("RU Stadium West");
+		Location l_b_vc = new Location("RU Visitors Center");
+		Location l_b_18bridge = new Location("18 South");
+		Location l_b_sci = new Location("SC&I Building");
 
 		HashMap<String,Location> spawns = new HashMap<String,Location>();
 		
@@ -123,6 +133,22 @@ public class COGSBusAdventure extends ConsoleGame {
 		l_w_hill_f3.linkMap(m_hill);
 		l_w_hill_cb.linkMap(m_hill);
 		l_w_hill_cf.linkMap(m_hill);
+
+		l_w_casc.linkMap(m_busses);
+		l_w_scott.linkMap(m_busses);
+		l_w_sac.linkMap(m_busses);
+		l_b_george.linkMap(m_busses);
+		l_b_18Bush.linkMap(m_busses);
+		l_b_bushc.linkMap(m_busses);
+		l_b_werblin.linkMap(m_busses);
+		l_w_hill.linkMap(m_busses);
+		l_b_stad.linkMap(m_busses);
+		l_b_vc.linkMap(m_busses);
+		l_b_18bridge.linkMap(m_busses);
+		l_b_sci.linkMap(m_busses);
+		
+		
+		
 		
 		//Link Actions
 		//TODO Link Actions
